@@ -1,0 +1,62 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-family: sans-serif;
+  }
+  body {
+    background-color: #f2f2f2; /* Warna latar belakang abu-abu muda */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Tinggi halaman minimal 100% viewport */
+  }
+
+.container {
+    background-color: #3b1616; /* Warna latar belakang kotak login */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(84, 29, 29, 0.1); /* Bayangan kotak */
+    width: 300px; /* Lebar kotak */
+    text-align: center;
+}
+
+h2 {
+    color: #1a61a8; /* Warna teks biru */
+}
+
+h4 {
+    color: #555555; /* Warna teks abu-abu gelap */
+    margin-bottom: 20px;
+}
+h5 {
+    padding-top: 10px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #fff; /* Warna latar belakang putih */
+    padding: 20px;
+    border-radius: 5px; /* Sudut lengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+    text-align: left; /* Alignment teks dalam form */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%; /* Lebar input 100% */
+    padding: 10px; /* Padding dalam input */
+    margin-bottom: 10px; /* Margin antar elemen */
+    border: 2px solid #cccccc; /* Border input */
+    border-radius: 10px; /* Border radius */
+    box-sizing: border-box; /* Box sizing */
+}
+
+input[type="submit"] {
+    background-color: #336699; /* Warna latar belakang tombol submit */
+    color: white; /* Warna teks tombol submit */
+    cursor: pointer; /* Tanda kursor */
+}

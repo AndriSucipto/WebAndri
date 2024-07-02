@@ -1,0 +1,162 @@
+*{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans" , sans-serif;    
+}  
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: courier;
+  color:rgba(217, 228, 234, 0.938);
+}
+
+.menu {
+  float: right;
+}
+
+nav  {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #1da4da;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  float: left;
+}
+/* kursus.css */
+
+/* Stil untuk tombol Sign In/Up */
+.menu button {
+  border-radius: 50px;
+  background-color: #336699; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  border: none; /* Hapus garis pinggir */
+  padding: 10px 30px; /* Padding tombol */
+  text-align: center; /* Posisi teks ke tengah */
+  text-decoration: none; /* Hapus dekorasi teks */
+  display: inline-block; /* Tampilan inline block */
+  font-size: 16px; /* Ukuran font tombol */
+  cursor: pointer; /* Tampilan kursor saat dihover */
+}
+
+.menu button:hover {
+  background-color: #336699; /* Warna latar belakang saat dihover */
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  /* Lebar kontainer */
+  max-width: 600px;  /* Maksimum lebar kontainer */
+  height: 400px;  /* Tinggi kontainer */
+  overflow: hidden;  /* Menyembunyikan bagian gambar yang berlebih */
+  border: 1px solid #ccc;  /* Batas kontainer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Bayangan kontainer */
+  border-radius: 8px;  /* Sudut tumpul kontainer */
+}
+
+.image img {
+  width: 100%;  /* Lebar gambar mengikuti kontainer */
+  height: 100%;  /* Tinggi gambar mengikuti kontainer */
+  object-fit: cover;  /* Gambar menutupi seluruh kontainer dengan rasio yang tetap */
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Memperbesar ikon */
+.fa-brands {
+  align-items: flex-start;
+  margin: 10px;
+  padding: 10PX;
+  font-size: 50px; /* Ukuran font yang lebih besar */
+}
+
+/* Menyesuaikan warna ikon */
+.fa-brands.fa-instagram {
+  color: #E13062; /* Warna Instagram */
+}
+
+.fa-brands.fa-square-facebook {
+  color: #3B5999; /* Warna Facebook */
+}
+
+.fa-brands.fa-square-whatsapp {
+  color: #25D366; /* Warna WhatsApp */
+}
+
+.fa-brands.fa-tiktok {
+  color: #0a0303; /* Warna TikTok */
+}
+
+.fa-brands.fa-youtube {
+  color: #FF0000; /* Warna YouTube */
+}
+footer {
+  background-color: #f5f5f5; /* Warna latar belakang abu-abu muda */
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+ 

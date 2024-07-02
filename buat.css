@@ -1,0 +1,106 @@
+/* Reset style bawaan */
+ *{
+    margin: 10;
+    padding: 10;
+    font-family: sans-serif;
+  }
+  
+  /* Style untuk keseluruhan halaman */
+  body {
+    background-color: #f2f2f2; /* Warna latar belakang abu-abu muda */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Tinggi halaman minimal 100% viewport */
+  }
+  
+  /* Style untuk formulir */
+  form {
+    background-color: #fff; /* Warna latar belakang putih */
+    padding: 30px; /* Lebarkan padding */
+    border-radius: 10px; /* Sudut lengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    width: 400px; /* Lebar formulir */
+    margin: 0 auto; /* Posisi di tengah */
+  }
+  
+  /* Style untuk label */
+  label {
+    display: block;
+    margin-bottom: none;
+    font-weight: bold; /* Teks label lebih tebal */
+  }
+  
+  /* Style untuk input text */
+  input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Mencakup padding dan border dalam lebar */
+  }
+  
+  /* Style untuk input text (fokus) */
+  input[type="text"]:focus {
+    outline: none; /* Menghilangkan garis fokus bawaan */
+    border-color: #007bff; /* Mengubah warna border saat fokus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan saat fokus */
+  }
+  
+  
+  /* Style untuk tombol submit */
+  input[type="submit"] {
+    background-color: #336699; /* Warna biru cerah */
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animasi transisi warna */
+  }
+  
+  /* Style untuk tombol submit (hover) */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+  }
+  
+  /* Style untuk pesan penting */
+  h4 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  a {
+    color: #007bff; /* Warna biru cerah untuk link */
+    text-decoration: none;
+  }
+  
+  /* Font yang menarik dan sesuai */
+  body {
+    font-family: 'Roboto', sans-serif; /* Contoh font Google Font */
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif; /* Contoh font Google Font */
+  }
+  
+  h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /* Contoh font Google Font */
+    padding-top: 10px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .info {
+    width: 400px;
+  }
+  
+    .info h4 {
+      margin-top: 20px;
+      color: #333;
+      text-align: center;
+    }
+  
